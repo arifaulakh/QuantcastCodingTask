@@ -34,7 +34,6 @@ def get_most_active_cookies(log_date: str, date_to_cookie: dict) -> list[str]:
     return [cookie for cookie in freq if freq[cookie] == most_active_count]
 
 if __name__ == "__main__":
-    ##to do: handle case when argv is not formatted properly, check for "-d"
     cookie_log = sys.argv[1]
     log_date = datetime.strptime(sys.argv[3], CLI_FORMAT).date()
     date_to_cookie = process_cookie_log(cookie_log)
