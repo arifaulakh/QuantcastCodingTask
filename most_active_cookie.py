@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-from os import read
 import sys
 from typing import Dict, List
 from datetime import datetime

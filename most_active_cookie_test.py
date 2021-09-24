@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from most_active_cookie import process_cookie_log, get_most_active_cookies, UTC_FORMAT, CLI_FORMAT
 import csv
 import datetime
